@@ -1,0 +1,43 @@
+.images{
+    width: 200px;
+}
+.view{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.title{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (min-width:100px) and (max-width: 500px){
+.view{
+    display: flex;
+   font-size: x-small;
+    width: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+         text-decoration: underline;
+    text-decoration-color: blue;
+}
+}
+
+@media only screen and (min-width:500px) and (max-width: 700px){
+.view{
+    display: flex;
+   font-size: x-small;
+    width: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+         text-decoration: underline;
+    text-decoration-color: blue;
+}
+}
+@media only screen and (min-width:700px) and (max-width: 1330px){
+.view{
+color: black;
+}
+}
