@@ -2,6 +2,9 @@ import React from 'react'
 import './MoreDetails.css'
 
 import OchiImages from '../../Data/ochi.jpg'
+import { CiLinkedin } from "react-icons/ci";
+import { AiFillGithub } from "react-icons/ai";
+import { CiTwitter } from "react-icons/ci";
 import DataFetching from '../../Data/DataFetching'
 import Footer from './Footer'
 const MoreDetails = () => {
@@ -10,6 +13,11 @@ const MoreDetails = () => {
 
       <div className='header'>
         <img className='image' src={OchiImages} alt='' />
+       <div className='icons'>
+          {/* <AiFillGithub />
+          <CiLinkedin />
+          <CiTwitter /> */}
+       </div>
         <div>
           <h1>Hello! Nice to meet you I`m John.</h1>
           <p>Based in Kenya, I`m a front-end developer 

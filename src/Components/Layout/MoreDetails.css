@@ -6,20 +6,13 @@
     text-decoration-color: aqua;
     margin-bottom: 4rem;
 }
+   
 .header{
     display: flex;
     margin: auto;
     color: white;
     width: 500px;
 }
-/* .languages{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    width: 500px;
-    color: white;
-    margin-bottom: 2rem;
-} */
 .app {
     justify-content: space-around;
   background-color:rgb(1, 1, 10);
@@ -63,6 +56,13 @@ p{
     margin: auto;
     margin-top: 1rem;
 }
+ /* .icons{
+    display: flex;
+    background-color: red;
+     position: relative;
+    width: 50px;
+    padding-right: 30px;
+    } */
 .contacts{
     color:white;
 }
@@ -105,12 +105,6 @@ p{
  padding-left: 280px;
  margin-top: 1rem;
 }
-/* .language-div{
-    display: flex;
-    width: 20px;
-    background-color: blue;
-} */
-   
 .style{
 width: 400px;
 color: white;
@@ -161,29 +155,4 @@ display: flex;
     font-size:large;
     color:grey;
 }
-
-    /* .header{
-    display: flex;
-    position: relative; */
-    /* width: 450px; */
-/* } */
-
-/* .text{
- font-weight:small;
-} 
-.image{
-display: flex;
- position: absolute;
- padding-left: 200px;
- margin-top: 1rem;
-} */
-/* .language{
-width: 500px;
-text-align: center;
-font-size: xx-large;
-margin: auto;
-justify-content: space-between;
-display: flex;
-background-color: red;
-} */
 }

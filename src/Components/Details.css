@@ -17,11 +17,14 @@
 .view{
     display: flex;
    font-size: x-small;
-    width: 150px;
+    width: 100px;
     justify-content: space-between;
     flex-wrap: wrap;
          text-decoration: underline;
     text-decoration-color: blue;
+}
+.details{
+    width: 300px;
 }
 }
 
@@ -38,6 +41,6 @@
 }
 @media only screen and (min-width:700px) and (max-width: 1330px){
 .view{
-color: black;
+color:whitesmoke;
 }
 }

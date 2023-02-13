@@ -1,37 +1,54 @@
 .footer{
-    height: 400px;
-    background-color:gray;
-    
+    height: 500px;
+    background-color:rgb(11, 7, 12);
 }
-
 .contacts{
     color: white;
     font-size: xx-large;
     width: 500px;
     padding-left: 10rem;
 }
-/* .form-header{
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-} */
-
 .formhr{
     width: 200px;
 }
 .formh{
     margin-top: 3rem;
+   
 }
-.text{
-    width: 350px;
-    color: white;
-    text-align: center;
+.massege{
+    color: whitesmoke;
+     text-decoration: underline;
+     text-decoration-color: aqua;
 }
+
 
 @media only screen and (min-width: 100px) and (max-width: 576px){
   .form-header{
     margin-left: 2rem;
     color: white;
+}
+.text{
+    width: 300px;
+}
+.massege{
+    padding-left: 250px;
+    margin-bottom: 4rem;
+    font-size: small;
+}
+.footerdetail{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+.icons{
+    color: white;
+    /* width: 300px;
+    background-color: red; */
+    padding-left: px;
+     padding-right:px;
+    
 }
 }
 
@@ -39,11 +56,16 @@
   .form-header{
     display:flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 400px;
     margin: auto;
     justify-content: center;
     margin-left: 2rem;
     color: white;
+}
+.massege{
+    padding-left: 300px;
+    margin-bottom: 4rem;
+    
 }
 }
 @media only screen and (min-width: 700px) and (max-width: 800px){
@@ -54,6 +76,11 @@
     justify-content: space-between;
     color: white;
 }
+.massege{
+    padding-left: 320px;
+    margin-bottom: 4rem;
+    font-size: small;
+}
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1330px){
@@ -63,5 +90,13 @@
     width: 700px;
     justify-content: space-between;
     color: white;
+}
+.text{
+    width: 300px;
+}
+.massege{
+    padding-left: 600px;
+    margin-bottom: 4rem;
+    font-size: small;
 }
 }

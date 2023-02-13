@@ -1,5 +1,8 @@
 import React from 'react'
 import './Footer.css'
+import { CiLinkedin } from "react-icons/ci";
+import { AiFillGithub } from "react-icons/ai";
+import { CiTwitter } from "react-icons/ci";
 
 function Footer() {
   return (
@@ -21,9 +24,18 @@ function Footer() {
           </div>
                 </div>
               </div>
-              <div>SEND MASSEGE</div>
+              <div className='massege'>SEND MASSEGE</div>
      
       <hr/>
+      <div className='footerdetail'>
+        JohnOchieng
+      </div>
+      <div className='icons'>
+        <AiFillGithub className='icon' />
+        <CiLinkedin className='icon' />
+        <CiTwitter className='icon' />
+      </div>
+      
     </div>
   )
 }

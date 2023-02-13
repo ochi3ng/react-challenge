@@ -1,14 +1,14 @@
 import React from 'react'
 import './Details.css'
-function Details(props) {
+function Details({ img, title, language, view, ViewCode, code, LiveDemo }) {
   return (
       <div className='details'>
-              <img className='images' src={props.img} alt='' />
-              <div className='title'>{props.title}</div>
-              <div className='title'>{props.language}</div>
-              <div className='view'>
-                <div className='title'>{props.view}</div>
-                <div className='title'>{props.code}</div>
+              <img className='images' src={img} alt='' />
+              <div className='title'>{title}</div>
+              <div className='title'>{language}</div>
+              <div className='view'>   
+        <a href={ViewCode} target="_blank">{code}</a>
+        <a href={LiveDemo} target="_blank">{view}</a>
               </div>
       </div>
   )
